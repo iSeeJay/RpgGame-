@@ -164,9 +164,9 @@ def hp(player, enemy):
 #Main Method
 def main():
 	#Initializing the possible characters the player can choose
-	cam = Character("Cameron", 125, 50, 5)
-	marisa = Character("Marisa", 90, 25, 40)
-	ross = Character("Ross", 150, 75, 3)
+	cam = Character("Cameron", 125, 50, 50)
+	marisa = Character("Marisa", 90, 25, 70)
+	ross = Character("Ross", 200, 75, 35)
 	characters = [cam, marisa, ross]
 
 	names = ["a", "b", "c"]
